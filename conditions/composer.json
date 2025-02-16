@@ -1,0 +1,17 @@
+{
+    "name": "nikit/conditions",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Nikit\\Conditions\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nikkkt",
+            "email": "work.terpilovsky@gmail.com"
+        }
+    ],
+    "require": {}
+}
