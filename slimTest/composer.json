@@ -1,0 +1,33 @@
+{
+    "name": "nikit/slim-test",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "./app/helpers.php"
+        ],
+        "psr-4": {
+            "Nikit\\SlimTest\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nikkkt",
+            "email": "work.terpilovsky@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.7",
+        "php-di/php-di": "^7.0",
+        "jenssegers/blade": "v1.4.0",
+        "php-di/slim-bridge": "3.*",
+        "illuminate/support": "^7.0",
+        "illuminate/database": "^7.4",
+        "zeuxisoo/slim-whoops": "^0.7.3"
+    },
+    "scripts": {
+        "start": "php -S localhost:8081 -t public"
+    }
+}
