@@ -1,0 +1,19 @@
+{
+    "name": "nikit/oop",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Nikit\\Oop\\": "src/",
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nikkkt",
+            "email": "work.terpilovsky@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
